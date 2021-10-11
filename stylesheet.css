@@ -52,6 +52,7 @@ body {
     margin: 10px 20px 0px 8px;
     padding:8px; 
     border: 3px solid #000; 
+    font-family: inherit;
 } 
 
 .majarinfobox2 td {
@@ -82,6 +83,7 @@ body {
 p.majarinfo {
     padding: 10px 40px;
     color: #ccbbce;
+    font-family: inherit;
 } 
 
 summary.majar {
@@ -114,6 +116,7 @@ p.mspeech {
     display: inline; 
     background-color: #000;
     color: #fff;
+    font-family: inherit;
 } 
 
 .majarcontainer{
