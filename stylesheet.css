@@ -1,0 +1,134 @@
+ * {
+    margin:0;
+    padding:0;
+    font-size:14px;
+    line-height: 18px;
+    text-align: justify;
+    text-decoration: none;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: grey;
+    padding: 30px;
+}
+
+/* ----temporary---- */
+
+
+.majarbox {
+    width: 600px; 
+    outline:2px solid #fff; 
+    outline-offset:7px; 
+    background-color:#5a0e64; 
+    color: #fff; 
+    text-align: left;
+    font-family: 'Lancelot', cursive;
+} 
+
+.majarbox a {
+    color:#ae3fba !important;
+    font-size: inherit;
+} 
+
+.majarimg {
+    height:150px; 
+    background-color:#fff;
+} 
+
+.majarinfobox1 {
+    float:left; 
+    width:220px; 
+    padding:10px; 
+    margin-top: 25px;
+    font-size: 17px;
+    text-align:center;
+    line-height: 21px;
+} 
+
+.majarinfobox2 {
+    float:right; 
+    width:310px; 
+    margin: 10px 20px 0px 8px;
+    padding:8px; 
+    border: 3px solid #000; 
+} 
+
+.majarinfobox2 td {
+    padding: 0px 5px; 
+    text-align:right;
+    line-height: 0.1;
+} 
+
+.majarinfobox2 table {
+    padding-top: 5px;
+}
+
+.majarinfoboy1, .majarinfobox2 {
+    font-family: 'Arapey', serif;
+}
+
+.clearer {
+    clear:both;
+} 
+
+.majararticle {
+    margin:15px 30px; 
+    padding:20px; 
+    border:3px solid #000;
+    color: #ccbbce;
+} 
+
+p.majarinfo {
+    padding: 10px 40px;
+    color: #ccbbce;
+} 
+
+summary.majar {
+    margin:5px 25px; 
+    background-color:#000; 
+    text-align:center;
+} 
+
+.majarfooter {
+    margin-top:15px; 
+    padding:3px; 
+    background-color:#fff; 
+    color:#000; 
+    text-align:center;
+    font-family: 'Arapey', serif;
+    font-size: 15px;
+} 
+
+h.majarname {
+    font-size:40px;
+    font-family: 'Ephesis', cursive;
+} 
+
+h.majarphonetic {
+    color:#a171a5;
+    font-size: 12px;
+} 
+
+p.mspeech {
+    display: inline; 
+    background-color: #000;
+    color: #fff;
+} 
+
+.majarcontainer{
+    height: 10px; 
+    width: 300px; 
+    background-color:#fff;
+    padding:0px; 
+    border:5px solid #000;
+} 
+
+.mvalue{
+    color:#fff; 
+    text-align:left;
+    position:absolute; 
+    margin-top:-8px; 
+    margin-left:130px;
+    font-size: 12px;
+} 
