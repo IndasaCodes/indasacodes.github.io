@@ -1,0 +1,119 @@
+.kaipv {
+  max-width: 600px;
+  background: #AD855C;
+  color: #393D29;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  margin: auto;
+  font: 15px 'Mali', cursive;
+  position: relative;
+}
+
+.kaipv a {
+  color: #DACEBE !important;
+}
+
+.kaipv a:hover {
+  color: #3B4A54 !important;
+}
+
+.kaipv .left {
+  max-width: 398px;
+  float: left;
+
+}
+
+.kaipv h3 {
+  text-align: right;
+  font-size: 60px;
+  font-family: 'Nanum Pen Script', cursive;
+  padding-right: 25px;
+  margin: 0px;
+  line-height: 45px;
+  margin-top: -15px;
+  margin-left: 60px;
+  border-bottom: 4px dashed;
+}
+
+.kaipv h4 {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  margin: 5px;
+  text-align: right;
+  font-weight: normal;
+}
+
+.kaipv article {
+  height: 600px;
+  overflow: auto;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.kaipv .rpinfo {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  bottom: 1%;
+  left: 17%;
+}
+
+.kaipv .right {
+  float: right;
+  max-width: 200px;
+  background: #A9AB85;
+  border-radius: inherit;
+
+}
+
+.kaipv .info {
+  padding: 10px;
+  min-height: 250px;
+}
+
+.kaipv td, .kaipv th {
+  background: #919673;
+  text-align: center;
+  line-height: 23px;
+}
+
+.kaipv table {
+  margin-bottom: 50px;
+}
+
+.kaipv sub {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 24%;
+  width: 100px;
+  padding: 5px;
+  background: #919673;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* SCROLLBAR-START */
+/* width */
+.kaipv ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.kaipv ::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+.kaipv ::-webkit-scrollbar-thumb {
+  background: #656A4E;
+}
+
+/* Handle on hover */
+.kaipv ::-webkit-scrollbar-thumb:hover {
+  background: #393D29;
+}
+
+/* SCROLLBAR-END */
