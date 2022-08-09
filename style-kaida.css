@@ -83,6 +83,7 @@
 .kaipv .info {
   padding: 10px;
   min-height: 250px;
+  font-size: 15px;
 }
 
 .kaipv td, .kaipv th {
