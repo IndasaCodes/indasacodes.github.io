@@ -111,11 +111,8 @@
   border-radius: 10px 10px 0px 0px;
 }
 
-.kaipv sub .pop {
-  left: 24%;
-}
-
 /* SCROLLBAR-START */
+
 /* width */
 .kaipv ::-webkit-scrollbar {
   width: 10px;
