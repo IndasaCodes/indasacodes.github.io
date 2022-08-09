@@ -128,3 +128,84 @@
 }
 
 /* SCROLLBAR-END */
+
+/* POPUP INVENTORY START */
+
+.kaipv details {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.15s background linear;
+}
+
+/* popup button */
+.kaipv summary {
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #656A4E;
+  border: none;
+  color: #DACEBE;
+  padding: 10px 30px;
+  margin: 20px 30px 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.kaipv summary:hover {
+  background-color: #393D29;
+}
+
+/* The actual popup */
+.kaipv details p {
+  cursor: auto;
+  width: 180px;
+  background-color: #919673;
+  color: #393D29;
+  font: 15px 'Mali', cursive;
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px 30px;
+  position: absolute;
+  z-index: 1;
+  top: 90%;
+  left: 35%;
+}
+
+.kaipv span {
+  display: inline;
+  font-size: inherit;
+  font-weight: bold;
+  margin-left: -10px;
+}
+
+/* Popup arrow */
+.kaipv details p::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 10%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #919673 transparent;
+}
+
+.kaipv details[open] p {
+  animation: animateDown 0.2s linear forwards;
+}
+
+@keyframes animateDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* POPUP INVENTORY END */
