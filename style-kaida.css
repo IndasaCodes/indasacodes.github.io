@@ -67,6 +67,11 @@
   left: 17%;
 }
 
+.kaipv .rpinfo2 {
+  text-align: center;
+  padding: 20px 10px;
+}
+
 .kaipv .right {
   float: right;
   max-width: 200px;
@@ -104,6 +109,10 @@
   font-size: 12px;
   text-align: center;
   border-radius: 10px 10px 0px 0px;
+}
+
+.kaipv sub .pop {
+  left: 24%;
 }
 
 /* SCROLLBAR-START */
