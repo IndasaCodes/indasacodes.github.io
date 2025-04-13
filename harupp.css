@@ -16,12 +16,15 @@
 .zia_ttpink_box a:hover {
   color: #cc444b !important;
 }
+.linkharuhover a:hover {
+  color: #e4b1ab !important;
+}
 .zia_ttpink_boxleft {
   width: 200px;
   background-color: #cc444b;
 }
 .zia_ttpink_boxright {
-  width: 400px;
+  width: 100%;
   background-color: #e4b1ab;
 }
 .zia_ttpink_title {
@@ -33,7 +36,7 @@
   line-height: 35px;
 }
 .zia_ttpink_2ndtitle {
-  padding: 30px 5px 0 5px;
+  padding: 25px 5px 0 5px;
   font-size: 27px;
   font-family: "Abril Fatface", cursive;
   color: #e39695;
@@ -45,8 +48,16 @@
   padding: 10px;
   margin: 30px 15px 0px 15px;
 }
+.haruplaylist {
+  font-size: 20px;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #e39695;
+  text-align: center;
+  line-height: 5px;
+}
 .zia_ttpink_infos {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .zia_ttpink_fact {
   margin: 1px 1px 0px 0px;
