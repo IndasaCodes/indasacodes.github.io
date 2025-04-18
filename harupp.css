@@ -89,7 +89,7 @@
   overflow: auto;
   height: 590px;
 }
-.zia_ttpink_text h77 {
+.zia_ttpink_text h77, .zia_ttpink_text strong {
   color: #cc444b;
 }
 .zia_ttpink_boxright ::-webkit-scrollbar {
