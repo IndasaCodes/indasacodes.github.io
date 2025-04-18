@@ -81,7 +81,7 @@
 .JuGG summary {
   margin-top: 6px;
   text-align: center;
-  font-weight: initial;
+  font-weight: initial !important;
   cursor: default !important;
 }
 
