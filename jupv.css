@@ -1,0 +1,116 @@
+.JuGG {
+  margin: auto;
+  max-width: 500px;
+  border-right: 15px solid;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.JuGG a {
+  text-shadow: none !important;
+}
+
+.JuGG .pic {
+  position: relative;
+}
+
+.JuGG .head {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.JuGG .info {
+  text-align: center;
+  margin-right: 3em;
+  padding: 0.7em 1.5em;
+}
+
+.JuGG h30 {
+  font-family: "IM Fell Double Pica", serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.JuGG .body {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.JuGG .top {
+  position: absolute;
+  width: 100%;
+  bottom: -5%;
+  z-index: 1;
+}
+
+.JuGG .border {
+  display: flex;
+  font-size: 35px;
+  justify-content: space-around;
+  padding: 7px 0 3px;
+  font-family: "Uchen", serif;
+  text-shadow: #0004 3px 3px;
+}
+
+.JuGG .topborder {
+  height: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.JuGG .etc {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+
+.JuGG .etc div {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 6px 10px;
+  margin: 0.5em 0;
+}
+
+.JuGG .etc div i {
+  margin-right: 0.5em;
+}
+
+.JuGG summary {
+  margin-top: 6px;
+  text-align: center;
+  cursor: default !important;
+}
+
+.JuGG summary::marker {
+  content: "";
+}
+
+.JuGG .ueber {
+  border: 1px solid;
+  padding: 2px 4px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.JuGG .popup {
+  margin: 0.7em 5em 0;
+}
+
+.JuGG .p {
+  padding: 1em 3em;
+}
+
+.JuGG .p::first-letter {
+  font-size: 16px;
+  font-family: "Uchen", serif;
+}
+
+.JuGG ::-webkit-scrollbar {
+  width: 7px;
+}
+
+.JuGGcr {
+  text-align: center;
+}
