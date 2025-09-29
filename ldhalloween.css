@@ -151,3 +151,8 @@ a.gruppe {
 quicklinks summary { background: #210e2f; color: #ddad52; } 
 quicklinks details { background: #291538; } 
 quicklinks li a:hover { background-color: #311645; color: white; }
+
+/* Beitragsbuttons */
+img[alt="Neue Beiträge"] { content: url("https://i45.servimg.com/u/f45/16/08/16/23/ld_hw_10.png"); }
+img[alt="Keine neuen Beiträge"] { content: url("https://i.servimg.com/u/f12/19/81/32/71/icon2_10.png"); }
+img[alt="Forum ist gesperrt"], img[alt="Keine neuen Beiträge [ Gesperrt ]"], img[alt="Dieses Thema ist gesperrt. Sie können weder die Beiträge bearbeiten, noch Antworten verfassen."] { content: url("https://i12.servimg.com/u/f12/19/81/32/71/icon3_10.png"); }
