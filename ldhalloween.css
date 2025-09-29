@@ -133,6 +133,7 @@ mid-legend {
 }
 member_posts_back { 
     background: #1c082b; 
+    text-shadow: 0 0 3px #d11216, 0 0 5px #4a1819;
 }
 .WIO-Header {
     color: #544B31 !important;
