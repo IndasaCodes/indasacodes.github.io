@@ -1,0 +1,153 @@
+/*Weisser Rand beim Profil bearbeiten entfernen*/
+th.thBottom, th.thCornerL, th.thCornerR, th.thHead, th.thLeft, th.thRight, th.thSides, th.thTop {
+    color: #ddad52 !important;
+}
+.spoiler_closed { background: #381c4d; }
+.spoiler_content { background: #381c4d; }
+.code { background: #381c4d; }
+.quote { background: #381c4d; }
+
+#content-container #left {
+    background: #311645;
+    border: 2px solid #1c082b;
+}
+
+QUICKLINKBEITRAG { 
+    background: #311645; 
+    border: 1px dotted #ddad52; 
+}
+QUICKLINKBEITRAG a { 
+    color: #CFB483 !important;
+}
+
+a, a:link, a:visited { 
+    color: #DEC28E !important;
+}
+a:hover, a:link:hover, a:link:focus {
+    color: #CF9C3E !important;
+    text-shadow: -1px 1px 3px #000;
+} 
+
+/*FORUMKOPF ANFANG*/
+.gen, .genmed, .gensmall, .postdetails, .name, .nav, .secondarytitle h2, .postbody, .forumline,
+.cattitle, .topictitle, .signature_div, #Forumieren_editorAmount {
+    color: #ddad52 !important;
+}
+.bodyline{ 
+    box-shadow: 2px 3px 7px black;
+    padding-top: 100px;
+    background-image: url(https://i12.servimg.com/u/f12/19/81/32/71/lostdr14.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    background-color: #210e2f;
+  
+    border: 5px solid #D9CAA3;
+}
+/*automatische Groessen-Anpassung des Hintergrunds an die jeweilige Desktop-Aufloesung*/
+body {
+background-color: #210e2f;
+background-image: url('https://i45.servimg.com/u/f45/16/08/16/23/ld_hal15.jpg');
+}
+MODUL_TOPIC {
+    background:rgba(74, 24, 25, 0.6);
+}
+MODUL_TOPIC_HEAD {
+  
+    color: #ddad52;
+    text-shadow: 1px 2px 1px #1c082b !important;
+}
+navi {
+    background:rgba(74, 24, 25, 0.6);
+}
+a.forumlink:link, a.forumlink:visited {
+    color: #665A37;
+    text-shadow: 1px 2px 1px #1c082b !important;
+}
+forenbeschreibungtext {
+    background: #311645;
+    color: #ddad52 !important;
+}
+forenbeschreibungtext:first-letter {
+    text-shadow: 0 1px 0 #000;
+}
+.forenbeschreibungtext-deko {
+    background-image:url('http://fs5.directupload.net/images/160314/whps8m6f.jpg');
+    text-shadow: 0.5px 0.5px 2px #000, 1px 1px 2px #000;
+    color: #1E495C;
+}
+forenbeitraege {
+    background: #1c082b;
+    color: #ddad52 !important;
+}
+.forumletzterbeitrag {
+    background-color: #1c082b;
+}
+o-swing-box { 
+    border: 1px solid #1c082b; 
+    background-color: #311645;
+} 
+.catBottom2 {
+    color: #D9CAA3 !important;
+    background:rgba(10, 10, 10, 0.2) !important;
+}
+.catHead2 {
+    color: #D9CAA3 !important;
+    background:rgba(10, 10, 10, 0.2) !important;
+}
+
+CATTITLE {
+    border-top: 1px solid #CFB483;
+    border-bottom: 1px solid #CFB483;
+}
+postbody_back {
+    background: #311645; 
+    border: 1px dotted #D9C39A;
+    color: #ddad52 !important;
+}
+postbody_arrow { color: #D9C39A; }
+posteravatar_border {
+    border: 1px dotted #311645;
+}
+posteravatar {
+    background: #1c082b;
+} 
+
+postervisit {
+    background: #311645;
+    text-shadow: 0px 0px 3px #000, 0px 0px 5px #000;
+    border: 1px solid #0f0318; 
+}
+posterrank {
+    border: 1px solid #0f0318; 
+    background: #1c082b;
+    color: #D9CAA3;
+}
+mid-fieldset {
+    border: 1px solid #D4D4D4;
+    background-color: #E6E6E6;
+}
+mid-legend {
+    border: 1px solid #D4D4D4;
+    background-color: #E0E0E0;
+}
+member_posts_back { 
+    background: #1c082b; 
+}
+.WIO-Header {
+    color: #544B31 !important;
+    text-shadow: 1px 1px 0px #1c082b, -1.5px -1.5px 0px #1c082b, 0px 0px 5px #000, 0px 0px 10px #000;
+}
+.WIO-catbo {
+    color: #000;
+}
+a.gruppe {
+    text-shadow: 0px 0px 3px #000, 0px 0px 5px #000 !important;
+}
+.WIO-balken { 
+    background: #311645;
+}
+
+quicklinks summary { background: #210e2f; color: #ddad52; } 
+quicklinks details { background: #291538; } 
+quicklinks li a:hover { background-color: #311645; color: white; }
