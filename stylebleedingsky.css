@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&display=swap');
+
+.pvthem {
+  background: #333 url(https://i45.servimg.com/u/f45/16/08/16/23/stein211.jpg) center/cover no-repeat content-box;
+  color: #ccc; 
+  padding: 6px;
+  outline: #222 solid 2px;
+  font-family: 'Times New Roman', serif;
+  max-width: 570px;
+  line-height: initial;
+}
+
+.pvthem .head {
+  background: #777 url(https://i45.servimg.com/u/f45/16/08/16/23/copper14.jpg) center center/80% no-repeat fixed;
+  filter: brightness(90%) grayscale(70%);
+  box-shadow: 0 0 20px #111 inset;
+  position: relative;
+  overflow: hidden;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pvthem .intro {
+  margin-top: 2em;
+}
+
+.pvthem h9 {
+  font-family: "Jacquard 24 Charted", system-ui;
+  font-size: 30pt;
+  color: #fff;
+  padding: 0 5px;
+  backdrop-filter: blur(2px);
+}
+
+.pvthem .intro img {
+  height: 140px;
+  border-radius: 50%;
+  padding: 9px;
+  filter: grayscale(60%);
+  outline: #111 solid 2px;
+  float: left;
+  margin: 15px;
+  webkit-shape-outside: circle();
+  shape-outside: circle();
+  background: #333 url(https://i45.servimg.com/u/f45/16/08/16/23/stein211.jpg) center/cover no-repeat;
+
+}
+
+.pvthem .name {
+  border-bottom: #111 solid 2px;
+}
+
+.pvthem h10 {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-size: 25pt;
+  color: #eee;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.pvthem h10::first-letter {
+  font-size: 30pt;
+}
+
+.pvthem .facts {
+  display: flex; 
+  margin-right: 3.5em;
+  justify-content: space-around;
+}
+
+.pvthem .facts span {
+  margin-top: 5px;
+  display: inline-block;
+  background: #222;
+  padding: 3px 10px;
+}
+
+.pvthem .post {
+  text-align: justify;
+  padding: 0.6em 3.5em 0 5em;
+}
+
+.pvthem u {
+  background: #222;
+  text-decoration: none;
+  font-weight: bold;
+  color: #63708e;
+}
+
+.pvthem .tag{
+  margin-top: 1em;
+  text-align: center;
+}
+
+.pvthem .foot {
+  background: #777 url(https://i45.servimg.com/u/f45/16/08/16/23/copper14.jpg) center center/80% no-repeat fixed;
+  filter: brightness(50%) grayscale(85%);
+  text-align: right;
+  margin-top: 2.5em;
+  padding-right: 1em;
+}
+.pvthem a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* RACHEL STYLES */
+
+.rach .head { background: #777 url(https://i45.servimg.com/u/f45/16/08/16/23/europe10.jpg) center bottom/cover no-repeat fixed; }
+.rach .intro img { float: right; }
+.rach .name {  text-align: right;}
+.rach .facts { margin-left: 3.5em;}
+.rach .post {padding: 0.6em 5em 0 3.5em;}
+.rach u {color: #8c607a;}
+.rach .foot {background: #777 url(https://i45.servimg.com/u/f45/16/08/16/23/europe10.jpg) center bottom/200% no-repeat fixed; }
