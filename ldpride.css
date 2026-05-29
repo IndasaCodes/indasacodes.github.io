@@ -1,0 +1,268 @@
+body { cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAHiD/AO8AwwD/xhsADNIAAC/w/wAwqv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIgAAAAAAAAAAAAAAAAAAIiIgAAAAAAAAAAAAACIAACIiIAAAAAAAAAAAAAAiIAIiIgAAAAAAAAAAAAAAMzMDMzMAAAAAAAAAAAAAADMzMzMzAAAAAAAAAAAAAAAzMzMzMAAAAAAAAAAAAAAAREREREREQAAAAAAAAAAAAEREREREREAAAAAAAAAAAABEREREREQAAAAAAAAAAAAAVVVVVVVQAAAAAAAAAAAAAFVVVVVVAAAAAAAAAAAAAABVVVVVUAAAAAAAAAAAAAAAZmZmZgAAAAAAAAAAAAAAAGZmZmAAAAAAAAAAAAAAAABmZmYAAAAAAAAAAAAAAAAAEREQAAAAAAAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////8f///+D///HAf//wwH//8AD///AA///wAP//8AA///AAH//wAB//8AA///AAf//wAP//8AH///AD///wB///8A////Af///wP///8H////D////x////8/////f////w=='), auto; }
+
+/*Weisser Rand beim Profil bearbeiten entfernen*/
+th.thBottom, th.thCornerL, th.thCornerR, th.thHead, th.thLeft, th.thRight, th.thSides, th.thTop {
+    color: #D60C6A !important;
+}
+.spoiler_closed { background: none; }
+.spoiler_content { background: none; }
+.code { background: none; }
+.quote { background: none; }
+
+#content-container #left {
+    background: linear-gradient(#9b7180, #c47d7f, #c6957d, #c2ba73, #7cbb9b, #58a0b6,#9b7180, #c47d7f, #c6957d, #c2ba73, #7cbb9b, #58a0b6);
+    border: 2px solid #D60C6A;
+}
+#content-container #left::after {
+    content: url(https://i.postimg.cc/vm70T1mc/anitext.gif);
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 3px;
+}
+#content-container #left:hover::after {
+   margin-left: 1px;
+   margin-top: -18px;
+}
+
+
+
+a, a:link, a:visited { 
+    color: #ffb9ed !important;
+  transition: none !important;
+  text-shadow: 1px 1px 1px #af0c5ecc;
+}
+a:hover, a:link:hover, a:link:focus {
+    color: #0000 !important;
+    background-image: linear-gradient(90deg, #da456d, #f68c55, #dad947, #72e679, #2ac2d4, #5a66f4, #9a4ac1);
+    background-clip: text;
+    text-shadow: none !important;
+    transition: none !important;
+    position:relative;
+} 
+
+a:hover::after, a:link:hover::after, a:link:focus::after {
+content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background: url('https://64.media.tumblr.com/tumblr_m3jdl64rZY1qb1380.gif') repeat-x center;
+  position: absolute;
+  left: 0;
+}
+
+QUICKLINKBEITRAG { 
+    background: linear-gradient(90deg,crimson, orange, teal, indigo);
+    border: 1px dotted #D60C6A; 
+}
+QUICKLINKBEITRAG a { 
+    color: #CFB483 !important;
+}
+
+/*FORUMKOPF ANFANG*/
+.gen, .genmed, .gensmall, .postdetails, .name, .nav, .secondarytitle h2, .postbody, .forumline,
+.cattitle, .topictitle, .signature_div, #Forumieren_editorAmount {
+    color: #D60C6A !important;
+}
+.bodyline{ 
+    box-shadow: 2px 3px 7px black;
+    padding-top: 100px;
+    background-image: url('https://i.postimg.cc/9F8Trwrr/Header2.png'), linear-gradient(90deg, #f4387533, #ffd40c33, #00e2c433, #794bdf33);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+
+    border: 5px solid transparent;
+    border-image: url(https://i.postimg.cc/J0YXFXms/rainbowborder2.png) 1 stretch;
+}
+
+/*automatische Groessen-Anpassung des Hintergrunds an die jeweilige Desktop-Aufloesung*/
+body {
+background-image: url('https://i.postimg.cc/c4dLnCRJ/Holofoil-V1.gif'), linear-gradient(90deg, #e35198, #f78978, #c4d963, #0ad891, #8473f3, #e35198);
+background-size: 200px;
+background-repeat: repeat;
+}
+MODUL_TOPIC {
+    background: rgba(203, 73, 146, 0.6);
+}
+MODUL_TOPIC_HEAD {
+  
+    color: #D60C6A;
+    text-shadow: 1px 2px 1px #1c082b !important;
+}
+navi {
+    background: rgba(203, 73, 146, 0.6);
+}
+a.forumlink {
+  display: inline-block !important;
+  padding-left: 0 !important;
+  margin-left: 80px;
+}
+a.forumlink:link, a.forumlink:visited {
+    color: #665A37;
+    text-shadow: 1px 1px 1px #af0c5ecc !important;
+}
+a.forumlink:hover {
+    text-shadow: none !important;
+    text-transform: uppercase !important;
+    font-size: 38px !important;
+    }
+forenbeschreibungtext {
+    background: #fff2;
+    color: #D60C6A !important;
+}
+forenbeschreibungtext:first-letter {
+    text-shadow: 0 1px 0 #000;
+}
+.forenbeschreibungtext-deko {
+    background-image:url('http://fs5.directupload.net/images/160314/whps8m6f.jpg');
+    text-shadow: 0.5px 0.5px 2px #000, 1px 1px 2px #000;
+    color: #1E495C;
+}
+forenbeitraege {
+    background: linear-gradient(90deg,crimson, orange, teal, indigo);
+    color: #FFF !important;
+}
+.forumletzterbeitrag {
+    background: #fff2;
+}
+o-swing-box { 
+    background: #fff3;
+    border: 1px solid #D60C6A; 
+} 
+.catBottom2 {
+    color: #D9CAA3 !important;
+    background:rgba(10, 10, 10, 0.2) !important;
+}
+.catHead2 {
+    color: #D9CAA3 !important;
+    background:rgba(10, 10, 10, 0.2) !important;
+}
+
+CATTITLE {
+    border-top: 1px solid #D60C6A;
+    border-bottom: 1px solid #D60C6A;
+}
+CATTITLE h2::before {
+    content: url(https://i.postimg.cc/gkSPNFt5/ezgif-74f510b929bba504.gif);
+    margin-right: 5px;
+}
+CATTITLE h2::after {
+    content: url(https://i.postimg.cc/dtHK4PNH/ezgif-7ea9735e7918d48c.gif);
+    margin-left: 5px;
+}
+span[class="nav"]::after {
+    content: url(https://i.postimg.cc/sDnfN0gM/31625a86.gif);
+    display: inline-block;
+}
+postbody_back {
+    background: #fff3;
+  border: 1px dotted #D60C6A;
+  color: #D60C6A !important;
+}
+.catLeft { background: rgba(255, 255, 255, 0.2) !important; }
+postbody_arrow { color: #D60C6A; }
+posteravatar_border {
+    border: 1px dotted #D60C6A;
+}
+posteravatar {
+    background: none;
+} 
+
+postervisit {
+    background: #fff3;
+    text-shadow: 0px 0px 3px #000, 0px 0px 5px #000;
+    border: 1px solid #D60C6A; 
+}
+posterrank {
+    border: 1px solid #D60C6A; 
+    background: linear-gradient(90deg,crimson, orange, teal, indigo);
+    color: #fff;
+}
+mid-fieldset {
+    border: 1px solid #D4D4D4;
+    background-color: #E6E6E6;
+}
+mid-legend {
+    border: 1px solid #D4D4D4;
+    background-color: #E0E0E0;
+}
+member_posts_back { 
+    background: #1c082b; 
+    text-shadow: 0 0 3px #d11216, 0 0 5px #4a1819;
+}
+.WIO-Header {
+    color: #544B31 !important;
+    text-shadow: 1px 1px 0px #1c082b, -1.5px -1.5px 0px #1c082b, 0px 0px 5px #000, 0px 0px 10px #000;
+}
+.WIO-catbo {
+    color: #fff;
+}
+a.gruppe {
+    text-shadow: 1px 1px 1px #fff !important;
+}
+.WIO-balken { 
+    background: linear-gradient(90deg,crimson, orange, teal, indigo);
+}
+
+quicklinks summary { 
+    background: linear-gradient(90deg,crimson, orange, teal, indigo);
+  color: #FFF; 
+  } 
+quicklinks details { background: #fff3; } 
+quicklinks li:hover { background: linear-gradient(90deg,crimson, orange, teal, indigo); }
+quicklinks li a:hover {
+    color: #FFF !important;
+    background-image: none;
+    background-clip: unset;
+    }
+
+/* Teamfarben */
+.group-2, .group-3 {
+    color: transparent !important;
+  background: linear-gradient(90deg,#ea225e, #f5b52e, #00a396, #612e8d);
+    background-clip: border-box;
+  background-clip: text;
+  text-shadow: none;
+}
+
+.group-4, .group-50, .group-49 {
+    color: transparent !important;
+  background: linear-gradient(90deg,mediumvioletred, rosybrown, teal, darkslateblue, indigo);
+    background-clip: border-box;
+  background-clip: text;
+  text-shadow: none;
+}
+
+a:hover .group-2, a:hover .group-3, a:hover .group-4, a:hover .group-49, a:hover .group-50 {
+    color: #FFB9ED !important;
+}
+
+/* Beitragsbuttons */
+img[alt="Neue Beiträge"] { 
+    content: url("https://i.postimg.cc/QdwcHqLp/sfdsdf.png");
+    width: 100px;
+    border: 2px solid;
+    background: url('https://i.postimg.cc/c4dLnCRJ/Holofoil-V1.gif'), linear-gradient(90deg, #e35198, #f78978, #c4d963, #0ad891, #8473f3, #e35198);
+    }
+.sprite-icon_topic_newest[alt="Den neuesten Beitrag anzeigen"] {
+    background: url(https://i.postimg.cc/C1FLtyDW/082177cd.gif);
+  width: 34px;
+  height: 11px;
+  }
+img[alt="Keine neuen Beiträge"] { 
+    content: url("https://i.postimg.cc/nhjDbQss/dsffsd.png"); 
+    width: 100px;
+    border: 2px solid;
+    background: url('https://i.postimg.cc/c4dLnCRJ/Holofoil-V1.gif'), linear-gradient(90deg, #e35198, #f78978, #c4d963, #0ad891, #8473f3, #e35198);
+    }
+    img[alt="Keine neuen Beiträge"]:hover, img[alt="Neue Beiträge"]:hover, img[alt="Forum ist gesperrt"]:hover, img[alt="Keine neuen Beiträge [ Gesperrt ]"]:hover, img[alt="Dieses Thema ist gesperrt. Sie können weder die Beiträge bearbeiten, noch Antworten verfassen."]:hover {
+        position: relative;
+  right: 2px;
+  top: 2px;
+    }
+img[alt="Forum ist gesperrt"], img[alt="Keine neuen Beiträge [ Gesperrt ]"], img[alt="Dieses Thema ist gesperrt. Sie können weder die Beiträge bearbeiten, noch Antworten verfassen."] { 
+    content: url("https://i.postimg.cc/L8Y1KZqY/sdffsd.png");
+    width: 100px;
+    border: 2px solid;
+    background: url('https://i.postimg.cc/c4dLnCRJ/Holofoil-V1.gif'), linear-gradient(90deg, #e35198, #f78978, #c4d963, #0ad891, #8473f3, #e35198);
+    }
