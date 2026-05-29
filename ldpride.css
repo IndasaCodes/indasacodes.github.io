@@ -23,6 +23,10 @@ th.thBottom, th.thCornerL, th.thCornerR, th.thHead, th.thLeft, th.thRight, th.th
    margin-left: 1px;
    margin-top: -18px;
 }
+#content-container #left:active::after {
+  content: "lost-dreams.forumieren.de/h3-secret";
+  color: #fff;
+}
 
 
 
@@ -66,7 +70,7 @@ QUICKLINKBEITRAG a {
 .bodyline{ 
     box-shadow: 2px 3px 7px black;
     padding-top: 100px;
-    background-image: url('https://i.postimg.cc/NMdTmKpS/Header3.png'), linear-gradient(90deg, #f4387533, #ffd40c33, #00e2c433, #794bdf33);
+    background-image: url('https://i.postimg.cc/9F8Trwrr/Header2.png'), linear-gradient(90deg, #f4387533, #ffd40c33, #00e2c433, #794bdf33);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100%;
